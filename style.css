@@ -764,4 +764,18 @@ padding: 25px;
     .quote_page_form{
         margin-top: 0px;   
     }
+    .blog_page_blog_section{
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .blog_details_sidebar_wrap{
+        margin-top: 50px;
+    }
+    .blog_details_main .blog-posts {
+        padding-right: 0px;
+    }
+    .blog_details_main{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 }
