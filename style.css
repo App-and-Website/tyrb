@@ -778,6 +778,14 @@ padding: 25px;
         padding-top: 60px;
         padding-bottom: 60px;
     }
+    .testimonial_title{
+        text-align: center;
+        padding-right: 0px!important;
+    }
+    .testimonial_section{
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
 }
 
 .appointment_button{
@@ -787,4 +795,84 @@ padding: 25px;
 
 .service_list_home .portfolio-single{
  background: #fff;
+}
+
+.testimonial_section .slick-arrow{
+    border: 2px solid #33792a!important;
+}
+.testimonial_section .slick-arrow i{
+    color: #33792a!important;
+}
+.testimonial_section .slick-arrow:hover {
+    background-color: #33792a!important;
+}
+.testimonial_section .slick-arrow:hover i{
+    color: #ffffff!important;
+}
+.testimonial_section h6{
+    color: #33792a!important;
+}
+.testimonial_slider img{
+   height: 60px;
+}
+
+.rate_us{
+    margin-bottom: 60px;
+}
+.rate_us_row{
+    background-color: #eaf0ea;
+    border-radius: 10px;
+    padding: 30px;
+}
+.rate_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #ccc;
+}
+.rate_item:nth-child(1){
+    border-left: 0px solid #ccc;
+}
+.rate_item_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.rate_icon img{
+    height: 60px;
+    width: auto;
+}
+.rate_text a{
+    font-weight: 600;
+    color: #33792a;
+}
+@media screen and (max-width:1200px){
+    .rate_us{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width:992px){
+    .rate_us{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .rate_item{
+        margin-top: 30px;
+        border-left: 0px solid #ccc;
+    }
+    .rate_item_head{
+        text-align: center;
+    }
+}
+@media screen and (max-width:576px){
+    .rate_us_row{
+        padding: 30px 10px;
+    }
+    .rate_item{
+        justify-content: flex-start;
+    }
+    .rate_item_head{
+        text-align: start;
+    }
 }
